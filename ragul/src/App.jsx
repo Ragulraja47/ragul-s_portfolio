@@ -1,6 +1,7 @@
 import './App.css'
 import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
+import Projects from './Components/Projects'
 import Tech from './Components/Tech'
 import Tools from './Components/Tools'
 
@@ -18,6 +19,7 @@ function App() {
          <Hero/>
          <Tech/>
          <Tools/>
+         <Projects/>
       </div>
     </div>
 
