@@ -1,4 +1,5 @@
 import './App.css'
+import Education from './Components/Education'
 import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
 import Projects from './Components/Projects'
@@ -20,6 +21,7 @@ function App() {
          <Tech/>
          <Tools/>
          <Projects/>
+         <Education/>
       </div>
     </div>
 
