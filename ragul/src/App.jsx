@@ -2,6 +2,7 @@ import './App.css'
 import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
 import Tech from './Components/Tech'
+import Tools from './Components/Tools'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
          <Navbar/>
          <Hero/>
          <Tech/>
+         <Tools/>
       </div>
     </div>
 
