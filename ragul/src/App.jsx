@@ -1,6 +1,7 @@
 import './App.css'
 import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
+import Tech from './Components/Tech'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <div className='container mx-auto px-8'>
          <Navbar/>
          <Hero/>
+         <Tech/>
       </div>
     </div>
 
