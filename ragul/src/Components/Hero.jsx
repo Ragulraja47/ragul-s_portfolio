@@ -1,12 +1,12 @@
 import { HERO_CONTENT } from "../constants";
-import  profilePic  from "../assets/raviKumarProfile.webp";
+import  profilePic  from "../assets/ragul.webp";
 
 function Hero() {
     return (
         <div className="pb-4 lg:mb-36">
             <div className="flex flex-wrap lg:flex-row-reverse">
                 <div className="w-full lg:w-1/2">
-                    <div className="flex justify-center lg:p-8">
+                    <div className="flex justify-center lg:p-16">
                         <img src={profilePic} alt="Profile image" className="border border-stone-900 rounded-3xl" />
                     </div>
                 </div>

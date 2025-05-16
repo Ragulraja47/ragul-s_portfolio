@@ -3,74 +3,76 @@ import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a strong foundation in Java and modern web technologies. I specialize in building scalable, high-performance applications using the MERN stack and Spring Boot, with a focus on solving real-world problems through clean, maintainable code.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I'm a dedicated full stack developer pursuing a B.Tech in Information Technology, with a proven track record of building end-to-end web solutions. Skilled in Java, Spring Boot, React.js, Node.js, and databases like MySQL and MongoDB, I thrive in collaborative environments and enjoy taking on challenges that push my technical and creative boundaries.`;
+
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
+    year: "Mar 2024 – Present",
     role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    company: "Technology Innovation Hub, MKCE – Karur",
+    description: `Developed ERP-based web applications supporting college operations. Contributed to frontend, backend, and database functionalities using MERN, jQuery, PHP, and MySQL.`,
+    technologies: ["React.js", "Node.js", "MongoDB", "PHP", "MySQL", "jQuery"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Complaint Management System",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "An internal platform integrated with college ERP to streamline infrastructure issue reporting. Faculty can submit, track, and manage complaints efficiently with reduced paperwork. Role-based access and notifications improved transparency and resolution time. The system was built using jQuery, PHP, and MySQL.",
+    technologies: ["jQuery", "PHP", "MySQL"],
   },
   {
-    title: "Task Management App",
+    title: "Spring Boot CRUD Application",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A secure CRUD system for managing user data with Spring Boot and RESTful APIs. Integrated JWT and OAuth2 for authentication and authorization. Applied JPA for ORM and SQL injection prevention for security. Designed for scalability and modular backend operations.",
+    technologies: ["Spring Boot", "Java", "JPA", "MySQL"],
   },
   {
-    title: "Portfolio Website",
+    title: "Payroll Management System",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Developed a complete payroll solution to manage employee data and automate salary processing. Included features for accurate payslip generation and real-time data validation. Ensured smooth integration between frontend and backend with React and Spring Boot. The project reduced manual errors and enhanced HR efficiency.",
+    technologies: ["React.js", "Spring Boot", "MySQL", "Postman"],
   },
   {
-    title: "Blogging Platform",
+    title: "AI-Powered Auction System",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Built an AI-integrated online auction platform that suggests optimal bids using real-time data. Leveraged the Gemini API to predict auction outcomes and enhance user decisions. Implemented secure bidding, user dashboards, and admin analytics. Developed using the MERN stack for dynamic performance.",
+    technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Gemini API"],
+  },
+  {
+    title: "AGRIKET – Livestock Management Platform",
+    image: project1,
+    description:
+      "A smart agriculture platform to manage livestock lifecycle, grooming, and veterinary outreach. Features include contract farming modules and a direct farmer-to-consumer marketplace. Enabled vaccination tracking, disease prediction, and buyer-farmer interaction. Built with a MERN stack and integrated real-time monitoring.",
+    technologies: ["MongoDB", "Express.js", "React.js", "Node.js"],
+  },
+  {
+    title: "Task Manager (Laravel)",
+    image: project2,
+    description:
+      "A task management system built with Laravel to organize, assign, and monitor project tasks. Provided role-based authentication, dynamic task tracking, and user notifications. Clean dashboard interface for admin and employee roles. Ensured efficiency through Eloquent ORM and structured MVC patterns.",
+    technologies: ["Laravel", "PHP", "MySQL", "Blade"],
+  },
+  {
+    title: "Skill Sphere – Online Learning Portal",
+    image: project3,
+    description:
+      "Developed an e-learning portal for skill development, featuring course listings, video content, and quizzes. Integrated user registration, progress tracking, and certificate generation. Ensured responsive UI with modular React components and secure backend handling. Ideal for individual learners and institutions.",
+    technologies: ["React.js", "Node.js", "MongoDB", "Express.js"],
   },
 ];
 
+
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "No. 9/570, Othaiyur, Karur – 639 114",
+  phoneNo: "9629613708",
+  email: "cragulraja2004@gmail.com",
 };
