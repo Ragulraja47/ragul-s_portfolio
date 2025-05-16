@@ -11,17 +11,17 @@ function Navbar(){
             </div>
 
             <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-                <a href="https:linked-in link" 
+                <a href="https://www.linkedin.com/in/ragul-raja-19049125a/" 
                 target="blank" rel='noopener noreferrer'
                 aria-label='LinkedIn'>
                     <FaLinkedin/>
                 </a>
-                <a href="https:linked-in link" 
+                <a href="https://github.com/Ragulraja47" 
                 target="blank" rel='noopener noreferrer'
                 aria-label='GitHub'>
                     <FaGithub/>
                 </a>
-                <a href="https:linked-in link" 
+               {/*  <a href="https:linked-in link" 
                 target="blank" rel='noopener noreferrer'
                 aria-label='Instagram'>
                     <FaInstagram/>                   
@@ -30,7 +30,7 @@ function Navbar(){
                 target="blank" rel='noopener noreferrer'
                 aria-label='Slack'>
                    <FaSlack/>
-                </a>
+                </a> */}
             </div>
 
         </nav>
