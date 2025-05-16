@@ -16,7 +16,7 @@ import { SiMongodb,  SiMysql,
         y:[10,-10],
         transition:{
             duration:duration,
-            ease:"Linear",
+            ease:"linear",
             repeat:Infinity,
             repeatType:"reverse",
         }
@@ -47,7 +47,7 @@ function Tech() {
                 <motion.div
                 initial="initial"
                 animate="animate"
-                variants={iconVariants(2.5)}
+                variants={iconVariants(3)}
                 >
                     <SiMysql className="text-7xl text-blue-500" />
                 </motion.div>
@@ -55,7 +55,7 @@ function Tech() {
                 <motion.div
                 initial="initial"
                 animate="animate"
-                variants={iconVariants(2.5)}
+                variants={iconVariants(5)}
                 >
                     <SiExpress className="text-7xl text-gray-400" />
                 </motion.div>
@@ -63,7 +63,7 @@ function Tech() {
                 <motion.div
                 initial="initial"
                 animate="animate"
-                variants={iconVariants(2.5)}
+                variants={iconVariants(2)}
                 >
                     <RiReactjsLine className="text-7xl text-cyan-400" />
                 </motion.div>
@@ -71,7 +71,7 @@ function Tech() {
                 <motion.div
                 initial="initial"
                 animate="animate"
-                variants={iconVariants(2.5)}
+                variants={iconVariants(6)}
                 >
                     <SiNodedotjs className="text-7xl text-green-600" />
                 </motion.div>
@@ -79,7 +79,7 @@ function Tech() {
                 <motion.div
                 initial="initial"
                 animate="animate"
-                variants={iconVariants(2.5)}
+                variants={iconVariants(4)}
                 >
                     <SiJavascript className="text-7xl text-yellow-400" />
                 </motion.div>
@@ -87,7 +87,7 @@ function Tech() {
                 <motion.div
                 initial="initial"
                 animate="animate"
-                variants={iconVariants(2.5)}
+                variants={iconVariants(5)}
                 >
                     <SiPhp className="text-7xl text-indigo-600" />
                 </motion.div>
@@ -95,7 +95,7 @@ function Tech() {
                 <motion.div
                 initial="initial"
                 animate="animate"
-                variants={iconVariants(2.5)}
+                variants={iconVariants(3)}
                 >
                     <DiJava className="text-7xl text-red-600" />
                 </motion.div>
