@@ -40,7 +40,7 @@ function Hero() {
                         width={650} height={300}
                         initial={{x:100, opacity:0}}
                         animate={{x:0,opacity:1}}
-                        transition={{duration:1,delay:1.5}} />
+                        transition={{duration:1,delay:1}} />
                     </div>
                 </div>
 
